@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="12dp" android:paddingLeft="16dp"
+    android:background="@color/groupHeaderColor" android:layout_marginTop="8dp">
+    <TextView android:id="@+id/tvGroupLabel" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textSize="13sp"
+        android:textColor="@color/colorPrimary" android:textStyle="bold" />
+    <TextView android:id="@+id/tvGroupCount" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textSize="12sp"
+        android:textColor="@color/textSecondary" android:layout_marginTop="2dp" />
+</LinearLayout>
