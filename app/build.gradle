@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
 }
 android {
+    namespace "com.contactcleaner"
     compileSdk 33
     defaultConfig {
         applicationId "com.contactcleaner"
